@@ -1,0 +1,32 @@
+#response_table table
+{
+	width:100%;
+}
+
+#response_table td
+{
+	white-space: nowrap;
+    padding: 20px;
+}
+
+#response_table tr
+{
+	white-space: nowrap;
+    margin: 20px;
+}
+
+#response_result
+{
+	overflow-x: none;
+	overflow-y: scroll;
+}
+
+#response_table table,#response_table td
+{
+	border: 1px solid black;
+}
+
+#search_text 
+{
+    width: 300px;
+}
