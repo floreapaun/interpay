@@ -10,12 +10,6 @@
         echo "Error : Unable to open database<br>";
     } 
 
-    //echo "bananas";
-
-    //echo $_POST["query"];
-    //echo count($_POST);
-    //echo $_POST["query"];
-
 	//check whether user types a search string and processing it
 	if(isset($_POST["query"]))
 	{
@@ -37,12 +31,6 @@
                     $output .= "<td>" . $row['aname'] . '</td>';
                     $output .= "<td>" . $row['bname'] . '</td>';
                     $output .= "</tr>";
-
-                /*    
-                echo    $objectid = $row['aname'];
-                echo     $author_id = $row['bname'];
-                */
-                
                 }
                 $output .= "</table>";
                 echo $output;
